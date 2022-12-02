@@ -1,0 +1,14 @@
+job:
+  package-manager: npm_and_yarn
+  source:
+    provider: github
+    repo: dsp-testing/npm-timeout-issue
+    directory: "/."
+    branch:
+    api-endpoint: https://api.github.com/
+    hostname: github.com
+  allowed-updates:
+    - dependency-name: "vue"
+  experiments:
+    npm-transitive-dependency-removal: true
+    yarn-berry: true

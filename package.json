@@ -1,0 +1,16 @@
+{
+  "name": "npm-infinite-loop",
+  "version": "0.0.0",
+  "description": "NPM infinite loop",
+  "private": true,
+  "main": "main.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.32.0",
+    "@vue/composition-api": "^1.7.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {}
+}
